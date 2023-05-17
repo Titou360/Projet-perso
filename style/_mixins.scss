@@ -1,0 +1,24 @@
+@mixin pad-mag {
+    padding: 0;
+    margin: 2rem;
+}
+
+@mixin pad2-mag0 {
+    padding: 2rem;
+    margin : 0rem;
+}
+
+@mixin pad0-mag2 {
+    padding: 0rem;
+    margin: 2rem;
+}
+
+@mixin flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin box-shadow {
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+}

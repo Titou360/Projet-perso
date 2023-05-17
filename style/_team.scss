@@ -1,0 +1,72 @@
+.card {
+    width: 90%;
+    background-color: white;
+    @include pad0-mag2;
+    @include box-shadow;
+    border-radius: 2rem;
+
+    &__image {
+        width: 18rem;
+        @include pad0-mag2;
+        border-radius: 2rem 0rem 0 2rem;
+        @include box-shadow;
+        }
+
+    &__associate {
+        
+        &--title {
+            font-family: $second-font;
+            font-size: 3rem;
+        }
+
+        &--parcours-title {
+            font-family: $second-font;
+            font-size: 1.8rem;
+            text-decoration: underline;
+            margin-right: 0.5rem;
+        }
+
+        &--parcours-text {
+            text-align: justify;
+            margin-right: 2rem;
+        }
+
+        &--statut {
+            em { 
+                font-size: 2rem;
+            }
+        }
+
+        &--skills {
+            @include pad2-mag0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+            font-family: $second-font;
+            font-size: 2rem;
+            text-decoration: underline;
+            padding-left: 2rem;
+            text-align: center;
+            }
+
+            .skills-logo {
+                align-items: center;
+            }
+
+            .fa-brands, .fa-solid {
+                color: orangered;
+                font-size: 2rem;
+                text-align: center;
+                padding-left: 1rem;
+            }
+        }
+    }
+}
+
+
+.card2 {
+    display: flex;
+    align-items: center;
+}
+
